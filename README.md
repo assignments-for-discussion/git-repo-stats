@@ -23,6 +23,8 @@ Then your server responds with a sequence of repos and their update-dates:
 
 ## Use of GitHub APIs
 
+Get familiar with the API: Try entering the above URLs in your browser and see the response from GitHub.
+
 Configure the list of GitHub API URLs on the server. It must be possible to add more URLs without altering the code.
 
 When a user makes a GET request on your server, it makes GET requests on the configured github API end-points.
