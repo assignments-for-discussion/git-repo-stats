@@ -41,3 +41,7 @@ Write unit-tests, so that we don't need to manually test the server every time w
 Make sure to cover the following error cases:
 - A typo in the configured repository URL
 - Error response from github.com
+
+Use the [mocha test framework](https://mochajs.org/#getting-started) and the [chai assertion library](https://www.chaijs.com/)
+
+Check your coding style, complexity and coverage by running `checkmycode.sh` on the command-line.
